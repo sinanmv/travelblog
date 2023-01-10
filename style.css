@@ -1,0 +1,66 @@
+.navbrand h2
+{
+    font-family: 'Dancing Script', cursive;
+}
+.bannerimg img
+{
+    height: 650px;
+    position: relative;
+}
+.bannerimg h1
+{
+    position: absolute;
+    top: 85%;
+    left: 43%;
+    z-index: 3;
+    font-size: 6rem;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.473);
+    border: 2px solid white;
+    overflow: hidden;
+
+}
+
+.second img
+{
+    width: 360px;
+}
+.second h4
+{
+    font-family: 'Fjalla One', sans-serif;
+    transition: 0.5s;
+    font-size: 1rem;
+    line-height: 20px;
+}
+.second h4:hover
+{
+    color: rgb(70, 70, 245);
+}
+.btnview
+{
+    padding: 10px 15px;
+    border: 2px solid rgb(95, 95, 95);
+    font-family: 'Fjalla One', sans-serif;
+    border-radius: 10px;
+}
+.books .row img
+{
+    width: 300px;
+}
+.books img
+{
+    width: 100%;
+}
+.books h2
+{
+    color: black;
+    transition: 0.5s;
+}
+.books h2:hover
+{
+    color: rgb(6, 0, 172);
+}
+html
+{
+    scroll-behavior: smooth;
+}

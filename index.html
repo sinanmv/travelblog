@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel vlog</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+<!-- Google Fonts -->
+<link
+href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css"
+rel="stylesheet"
+/>
+<!-- MDB -->
+<script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"
+></script>
+</head>
+<body>
+    <section class="navbarcontain sticky-top">
+
+        <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <!-- Container wrapper -->
+    <div class="container-fluid">
+      <!-- Toggle button -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-mdb-toggle="collapse"
+        data-mdb-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i class="fas fa-bars"></i>
+      </button>
+  
+      <!-- Collapsible wrapper -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- Navbar brand -->
+        <a class="navbar-brand mt-2 mt-lg-0 navbrand" href="#">
+          <h2>GoTrip</h2>
+        </a>
+        <!-- Left links -->
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#homehref">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#latesthref">Latest</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#abouthref">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#advisehref">Travel Advise</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#bookshref">Books and Guides</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacthref">Contact</a>
+          </li>
+        </ul>
+        <!-- Left links -->
+      </div>
+      <!-- Collapsible wrapper -->
+  
+      <!-- Right elements -->
+      <div class="d-flex align-items-center">
+        <!-- Icon -->
+  
+        <!-- Notifications -->
+        <div class="dropdown">
+          <a
+            class="text-reset me-3 dropdown-toggle hidden-arrow"
+            href="#"
+            id="navbarDropdownMenuLink"
+            role="button"
+            data-mdb-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <i class="fas fa-bell"></i>
+            <span class="badge rounded-pill badge-notification bg-danger">1</span>
+          </a>
+          <ul
+            class="dropdown-menu dropdown-menu-end"
+            aria-labelledby="navbarDropdownMenuLink"
+          >
+            <li>
+              <a class="dropdown-item" href="#">Some news</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Another news</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Avatar -->
+        <div class="dropdown">
+          <a
+            class="dropdown-toggle d-flex align-items-center hidden-arrow"
+            href="#"
+            id="navbarDropdownMenuAvatar"
+            role="button"
+            data-mdb-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <img
+              src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
+              class="rounded-circle"
+              height="25"
+              alt="Black and White Portrait of a Man"
+              loading="lazy"
+            />
+          </a>
+          <ul
+            class="dropdown-menu dropdown-menu-end"
+            aria-labelledby="navbarDropdownMenuAvatar"
+          >
+            <li>
+              <a class="dropdown-item" href="#">My profile</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Settings</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Logout</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- Right elements -->
+    </div>
+    <!-- Container wrapper -->
+  </nav>
+  <!-- Navbar -->
+
+
+    </section>
+    <section class="bannerimg mb-5" id="homehref">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/banner-1.jpg" class="d-block w-100" alt="..." style="filter: brightness(0.5);">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="">Goa</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/banner-2.jpg" class="d-block w-100" alt="..." style="filter: brightness(0.5);">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Banglore</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/banner-3.jpg" class="d-block w-100" alt="..." style="filter: brightness(0.5);">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Hyderabad</h5>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <section class="second container text-center" id="latesthref">
+      <h2 class="mt-5 mb-5">Latest from the Blog</h2>
+
+
+
+      <div class="row d-flex justify-content-between">
+        <div class="col">
+          <img src="./images/image1.jpeg" alt="">
+          <h4 class="mt-3">THE 7 BEST HOSTELS IN SEVILLE</h4>
+        </div>
+        <div class="col">
+          <img src="./images/image2.jpg" alt="">
+          <h4 class="mt-3">THE 6 BEST HOSTELS INAUCKLAND</h4>
+        </div>
+        <div class="col">
+          <img src="./images/image3.jpeg" alt="">
+          <h4 class="mt-3">THE 7 BEST HOSTELS IN ISTANBUL</h4>
+        </div>
+      </div>
+
+
+      <div class="row d-flex justify-content-between mt-5">
+        <div class="col">
+          <img src="./images/image4.jpg" alt="">
+          <h4 class="mt-3">THE 15 BEST BOOKS I READ IN 2022</h4>
+        </div>
+        <div class="col">
+          <img src="./images/image5.jpeg" alt="">
+          <h4 class="mt-3">SHOULD TRAVEL BE INEXPENSIVE</h4>
+        </div>
+        <div class="col">
+          <img src="./images/image6.jpeg" alt="">
+          <h4 class="mt-3">WHERE TO STAY IN DUBLIN: THE BEST NEIGHBORHOODS FOR YOUR VISIT</h4>
+        </div>
+      </div>
+      <button class="btnview">View More >>></button>
+    </section>
+    <section class="about container mt-5" id="abouthref">
+      <div class="row">
+        <div class="col-12 col-md-6 mb-3">
+          <h3>About Gotrip</h3>
+            <p>Welcome! Every day I wake up with one goal in mind: “How can I help other people travel better for less?” It’s my mission now to help travelers like you to realize their travel dreams.
+    
+              Since 2008, I've helped millions of people save money, travel more, and have a more authentic experience in the destinations they visit.
+              
+              This website has been featured in major media time and time again because it’s got the best budget advice out there. My goal is to make you a smarter traveler so you can go where you want, as often as they want.</p>
+          
+        </div>
+        <div class="col-12 col-md-6" id="advisehref">
+          <h2>My Most Popular Travel Advice</h2>
+          <ul>
+            <li><a href=""> How to Find Cheap Flights</a></li>
+            <li><a href=""> How to Find Cheap Accommodation</a></li>
+            <li><a href=""> How to Choose a Backpack</a></li>
+            <li><a href=""> 17 Steps for Plannig a Trip</a></li>
+            <li><a href=""> My Ultimate Packing Guide</a></li>
+            <li><a href=""> How to Buy Travel Insurance</a></li>
+            <li><a href=""> 11 Tips for New Travelers</a></li>
+            <li><a href=""> My Favorite Hostels</a></li>
+            <li><a href=""> Solo Female Travel Tips</a></li>
+            <li><a href=""> How to Pick the Right Travel Credit Card</a></li>
+            <li><a href=""> 14 Travel Scams to Avoid</a></li>
+            <li><a href=""> 15 Ways to Work Overseas</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+    <section class="books mt-5 text-center container" id="bookshref">
+      <h3 class="mt-3 mb-5">Books & Guides</h3>
+      <img src="https://www.nomadicmatt.com/wp-content/themes/nomadicmatt/images/blog_divider_735x40_@2x.png" alt="" class="mt-5 mb-5">
+      <div class="row">
+        <div class="col-12 col-md-5 col-lg-4">
+          <img src="./images/book1.jpg" alt="">
+        </div>
+        <div class="col mt-5">
+          <h2>How to Travel the World on $50 a Day</h2>
+<p>
+  
+  My New York Times best-selling book was called “the bible for budget travelers” by the BBC. It will teach you how to master the art of travel so you can save money, get off the beaten path, and have a more local, richer travel experience, no matter your destination or length of visit.
+</p>          
+<p>
+
+  This book takes the information on this website and supercharges it, going into much more detail and featuring tips, tricks, and country-by-country breakdowns never talked about here on the blog. It condenses over fifteen years of travel into one easy reference guide. If you're looking for an A-to-Z guide to show you how to plan your trip like a pro, this book is it!
+</p>
+        </div>
+      </div>
+      <img src="https://www.nomadicmatt.com/wp-content/themes/nomadicmatt/images/blog_divider_735x40_@2x.png" alt="" class="mt-5 mb-5">
+      <div class="row">
+        <div class="col-12 col-md-5 col-lg-4">
+          <img src="./images/book2.jpg" alt="">
+        </div>
+        <div class="col mt-5">
+          <h2>Ten Years a Nomad:A Traveler's Journey Home</h2>
+          <p>
+            
+            The book is a memoir of my ten years traveling and backpacking the world and the lessons I learned from that. It follows the arc of a trip around the globe: getting the bug, the planning, setting off, the highs, the lows, the friendships made, the relationships forged (and lost), the emotions you feel when it's all over.
+          </p>
+          <p>
+
+            Unlike my previous books, this is not a “how to guide” but a collection of insights, advice, and stories from the road, conveying the experience of what it's like to quit your job, follow the road not taken, and travel the world trying to discover who you are and what the world has to offer. In short, it is my opus on travel meant, to inspire you to pursue your own dreams.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="footerset" id="contacthref">
+      <div class="my-5">
+
+        <footer class="text-white text-center text-lg-start" style="background-color: #23242a;">
+          <!-- Grid container -->
+          <div class="container p-4">
+            <!--Grid row-->
+            <div class="row mt-4">
+              <!--Grid column-->
+              <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+                <h5 class="text-uppercase mb-4" style="    font-family: 'Dancing Script', cursive;">GoTrip</h5>
+      
+                <p>
+                  At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                  voluptatum deleniti atque corrupti.
+                </p>
+      
+                <p>
+                  Blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas
+                  molestias.
+                </p>
+      
+                <div class="mt-4">
+                  <!-- Facebook -->
+                  <a type="button" class="btn btn-floating btn-warning btn-lg"><i class="fab fa-facebook-f"></i></a>
+                  <!-- Dribbble -->
+                  <a type="button" class="btn btn-floating btn-warning btn-lg"><i class="fab fa-dribbble"></i></a>
+                  <!-- Twitter -->
+                  <a type="button" class="btn btn-floating btn-warning btn-lg"><i class="fab fa-twitter"></i></a>
+                  <!-- Google + -->
+                  <a type="button" class="btn btn-floating btn-warning btn-lg"><i class="fab fa-google-plus-g"></i></a>
+                  <!-- Linkedin -->
+                </div>
+              </div>
+              <!--Grid column-->
+      
+              <!--Grid column-->
+              <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase mb-4 pb-1">Search something</h5>
+      
+                <div class="form-outline form-white mb-4">
+                  <input type="text" id="formControlLg" class="form-control form-control-lg">
+                  <label class="form-label" for="formControlLg" style="margin-left: 0px;">Search</label>
+                <div class="form-notch"><div class="form-notch-leading" style="width: 9px;"></div><div class="form-notch-middle" style="width: 48.8px;"></div><div class="form-notch-trailing"></div></div></div>
+      
+                <ul class="fa-ul" style="margin-left: 1.65em;">
+                  <li class="mb-3">
+                    <span class="fa-li"><i class="fas fa-home"></i></span><span class="ms-2">New York, NY 10012, US</span>
+                  </li>
+                  <li class="mb-3">
+                    <span class="fa-li"><i class="fas fa-envelope"></i></span><span class="ms-2">info@example.com</span>
+                  </li>
+                  <li class="mb-3">
+                    <span class="fa-li"><i class="fas fa-phone"></i></span><span class="ms-2">+ 01 234 567 88</span>
+                  </li>
+                  <li class="mb-3">
+                    <span class="fa-li"><i class="fas fa-print"></i></span><span class="ms-2">+ 01 234 567 89</span>
+                  </li>
+                </ul>
+              </div>
+              <!--Grid column-->
+      
+              <!--Grid column-->
+              
+              <!--Grid column-->
+            </div>
+            <!--Grid row-->
+          </div>
+          <!-- Grid container -->
+      
+          <!-- Copyright -->
+          <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2020 Copyright
+          </div>
+          <!-- Copyright -->
+        </footer>
+        
+      </div>
+    </section>
+</body>
+</html>
